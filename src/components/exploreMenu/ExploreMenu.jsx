@@ -6,7 +6,7 @@ export default function ExploreMenu({category,setCategory}) {
   return (
     <div className={styles.exploreMenu} id='exploreMenu'>
     <h1>Explore Our Menu</h1>
-    <p className={styles.exploreMenuText}>Chhose</p>
+    <p className={styles.exploreMenuText}>Dive into a world of delicious options! From gourmet burgers to fresh salads, our menu has something for everyone. Discover new favorites and enjoy a culinary adventure right from your home.</p>
     <div className={styles.exploreMenuList}>
     {menu_list.map((item,index)=>{
         return(

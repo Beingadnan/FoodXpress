@@ -9,7 +9,7 @@ export default function Header() {
     >
       <div className={styles.headerContent}>
         <h2>Order Your favourite Food here</h2>
-        <p>ada asas asdasd asscasd asdas ava adad adad a d</p>
+        <p>Craving something delicious? Browse our menu and have your favorite dishes delivered right to your door. Fast, easy, and tasty – just a click away!</p>
         <button>View Menu</button>
       </div>
     </div>

@@ -19,13 +19,13 @@
 }
 .headerContent h2{
     font-weight: 500;
-    color: rgb(10, 59, 10);
+    color: rgb(60, 64, 60);
     font-size: max(4.5vw,22px);
     
 }
 .headerContent p{
-    color: rgb(50, 21, 21);
-    font-size: 1vw;
+    color: rgb(34, 30, 30);
+    font-size: 1.1vw;
    
 }
 .headerContent button{
