@@ -3,9 +3,11 @@ import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <div
+
+    <div 
       className={styles.header}
       style={{ backgroundImage: "url(/header1.jpg)" }}
+      
     >
       <div className={styles.headerContent}>
         <h2>Order Your favourite Food here</h2>
@@ -13,5 +15,6 @@ export default function Header() {
         <button>View Menu</button>
       </div>
     </div>
+
   );
 }

@@ -1,8 +1,12 @@
 .navbar{
-    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    /* background-color: white;  */
+    z-index: 1000; 
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 .logo{
     width: 150px;
@@ -11,10 +15,19 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #49557e;
+    color: #c6d3ff;
+    /* color: #49557e; */
     font-size: 18px;
-    
 }
+.navbarMenu li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbarMenu li:hover {
+    color: white;
+  }
+
 .navbarRight{
     display: flex;
     align-items: center;
@@ -27,7 +40,8 @@ button{
     background: transparent;
     font-size: 18px;
     color: #49557e;
-    border: 1px solid tomato;
+    color: white;
+    border: 1px solid rgb(255, 254, 253);
     padding: 10px 30px;
     border-radius: 60px;
     cursor: pointer;
@@ -36,9 +50,11 @@ button{
 .icon {
     height: 24px; 
     width: 24px;  
+    /* color: aliceblue; */
 }
 button:hover{
     background-color: #fff4f2;
+    color: black;
 }
 .active{
     padding-bottom: 2px;

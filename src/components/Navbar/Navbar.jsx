@@ -7,7 +7,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   const[menu,setMenu]=useState("Home")
-
+ 
  
   return (
     <div className={styles.navbar}>
